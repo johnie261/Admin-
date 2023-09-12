@@ -23,9 +23,6 @@ const Layout = () => {
     return <div>Error fetching user data.</div>;
   }
 
-  console.log(data);
-
-
   return <Box display={isNonMobile ? "flex" : "block"} width="100%" height="100%">
     <Sidebar 
         user = {JSON.parse(data) || {}} 

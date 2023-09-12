@@ -21,7 +21,6 @@ import { AppBar,
     MenuItem,
     Typography
     } from '@mui/material'
-// import profileImgn from 'assets'
 
 const Navbar = ({user, isSidebarOpen, setIsSidebarOpen}) => {
 

@@ -105,9 +105,6 @@ const Sidebar = ({user, drawerWidth, isSidebarOpen, setIsSidebarOpen, isNonMobil
     setActive(pathname.substring(1));
   }, [pathname])
 
-  console.log("username", user.name)
-  console.log("user", user)
-
   return <Box component="nav">
     {isSidebarOpen && (
         <Drawer 
